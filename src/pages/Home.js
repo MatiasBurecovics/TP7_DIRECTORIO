@@ -1,21 +1,21 @@
-
-import ReactDOM from "react-dom/client";
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Personas from './Listado.js'; 
+import Personas from './Listado.js';
+import './Home.css';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Listado de Personas</h1>
-      <ul>
+    <div className="home-container">
+      <h1 className="home-heading">Listado de Personas</h1>
+      <ul className="person-list">
         {Personas.map((persona) => (
-          <li key={persona.id}>
-            <Link to={`/persona/${persona.id}`}>{persona.nombre}</Link>
+          <li className="person-list-item" key={persona.id}>
+            <Link to={`BuscarPersona/${persona.id}`} className="person-link">
+              {persona.nombre}
+            </Link>
           </li>
         ))}
       </ul>
     </div>
   );
 }
-

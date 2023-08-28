@@ -3,8 +3,9 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
-import Blogs from "./pages/Blogs";
+import Estadisticas from "./pages/Estadisticas";
 import Contact from "./pages/Contact";
+import Persona from "./pages/BuscarPersona"
 import NoPage from "./pages/NoPage";
 
 export default function App() {
@@ -13,8 +14,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="Buscar Persona" element={<Blogs />} />
-          <Route path="Estadisticas" element={<Blogs />} />
+          <Route path="BuscarPersona/:id" element={<Persona />} />
+          <Route path="Estadisticas" element={<Estadisticas />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>

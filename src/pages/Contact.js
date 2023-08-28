@@ -1,8 +1,7 @@
 
-import ReactDOM from "react-dom/client";
-import {  Text } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import './Contact.css';
 
 
 export default function Contact() {

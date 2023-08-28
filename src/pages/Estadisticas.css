@@ -1,0 +1,57 @@
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .stats-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .stats-info {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #4285f4;
+    ;
+  }
+  
+  .stats-person-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .stats-person-item {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .stats-message {
+    font-size: 1rem;
+    margin-top: 20px;
+    color: #555555;
+  }
+  
+  .stats-message-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .stats-message-item {
+    margin-bottom: 5px;
+  }
+  
+  .stats-message-list::before {
+    content: '- ';
+    color: #FF9800;
+  }
+  
+  
