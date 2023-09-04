@@ -403,7 +403,7 @@ const Personas = [
     "nombre":"Logan",
     "apellido":"Lamport",
     "email":"llamport1l@hibu.com",
-    "edad":"29"
+    "edad":"19"
   },
   {
     "id":"59",

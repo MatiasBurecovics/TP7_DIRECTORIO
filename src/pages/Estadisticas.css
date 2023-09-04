@@ -19,25 +19,21 @@
 }
 
 .stats-person-list {
-  
   list-style: none;
   padding: 0;
   margin-top: 20px;
   background-color: rgba(175, 18, 18, 0);
 }
-.stats-person1-item{
-  
+
+.stats-person1-item {
   font-size: 18px;
   padding: 10px 0;
   margin-left: 20px;
-  
-  
 }
 
 .stats-person-item {
   font-size: 18px;
   padding: 10px 0;
-  
 }
 
 .stats-person-item:last-child {
@@ -51,7 +47,6 @@
 .stats-person-item span {
   color: #777;
 }
-
 
 @media (max-width: 480px) {
   .stats-container {
