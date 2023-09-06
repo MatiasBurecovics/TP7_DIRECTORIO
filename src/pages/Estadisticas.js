@@ -27,8 +27,8 @@ const Estadisticas = () => {
   const personasConMenorEdad = personas.filter(persona => persona.edad === menorEdad.edad);
 
   return (
-    <div>
-      <h1>Estadísticas</h1>
+    <div className="estadisticas-container">
+      <h1 className="titulo">Estadísticas</h1>
       <p>Cantidad de personas mayores de 35 años: {mayoresDe35.length}</p>
       <p>Persona(s) de mayor edad: {personasConMayorEdad.map(persona => persona.nombre).join(', ')}</p>
       <p>Persona(s) de menor edad: {personasConMenorEdad.map(persona => persona.nombre).join(', ')}</p>

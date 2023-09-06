@@ -32,14 +32,14 @@ const Personas = [
     "nombre":"Burl",
     "apellido":"Iveson",
     "email":"biveson4@ted.com",
-    "edad":"59"
+    "edad":"65"
   },
   {
     "id":"6",
     "nombre":"Neysa",
     "apellido":"Leveridge",
     "email":"nleveridge5@gmpg.org",
-    "edad":"39"
+    "edad":"65"
   },
   {
     "id":"7",
@@ -102,7 +102,7 @@ const Personas = [
     "nombre":"Malchy",
     "apellido":"Danilovitch",
     "email":"mdanilovitche@theatlantic.com",
-    "edad":"25"
+    "edad":"37"
   },
   {
     "id":"16",
